@@ -7,6 +7,21 @@ $ cnpm install
 $ npm run dev
 
 
+
+
+在next.js生产打包阶段打包出来的js文件请求路径中带有版本号，而真实打包出来的文件夹却没有实际对应的目录，也就是打包出来的是虚拟目录，这里如果使用nginx就需要特别注意。好在next.js提供配置项来修改build id，以下是我的真实代码：
+
+// next.config.js
+module.exports = {
+  generateBuildId: async () => {
+    // For example get the latest git commit hash here
+    return 'v1'
+  }
+}
+
+这样打包出来的虚拟路径大概是_next/v1/page/xxx.js，如果你使用cdn前缀，这里有一点区别，但是版本号依然存在。
+
+
 				搭建react+nextjs 服务端渲染 环境
 
 
