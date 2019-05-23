@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./styles/app.less","webpack:///./styles/app.css"],"sourcesContent":["p {\n  border: 10px solid yellow;\n}\n","p{\r\n\tcolor:red;\r\n}"],"mappings":"AAAA;AACA;AACA;;ACFA;AACA;AACA;","sourceRoot":""}

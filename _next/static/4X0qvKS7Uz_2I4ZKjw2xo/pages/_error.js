@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["0556"],{POpC:function(n,e,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_error",function(){var n=u("Y0NT");return{page:n.default||n}}])},Y0NT:function(n,e,u){"use strict";u.r(e);var r=u("uqIC"),t=u.n(r);e.default=function(){return t.a.createElement("h2",null,"自定义错误页面")}}},[["POpC","5d41","9da1"]]]);
