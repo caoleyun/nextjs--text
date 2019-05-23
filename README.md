@@ -1,6 +1,11 @@
 # nextjs--text
 nextjs--测试项目
 
+下载后 
+$ cnpm install 
+运行
+$ npm run dev
+
 
 				搭建react+nextjs 服务端渲染 环境
 
