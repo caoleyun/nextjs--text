@@ -7,8 +7,8 @@ $ cnpm install
 运行
 $ npm run dev
 
-
-
+npm -g 位置
+c:\Users\Adminstrator\AppData\Roaming\npm\node_modules
 
 在next.js生产打包阶段打包出来的js文件请求路径中带有版本号，而真实打包出来的文件夹却没有实际对应的目录，也就是打包出来的是虚拟目录，这里如果使用nginx就需要特别注意。好在next.js提供配置项来修改build id，以下是我的真实代码：
 
